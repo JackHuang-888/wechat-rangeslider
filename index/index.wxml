@@ -1,0 +1,9 @@
+<view class='container' bindtap='onTest'>
+  <!-- 以下是对一个自定义组件的引用 -->
+  <text class='range-text'>minValue:{{minValue}}</text>
+  <range-slider width='400' height='80' block-size='50' min='99' max='999' values='{{rangeValues}}' bind:rangechange='onRangeChange'>
+    <view slot='minBlock' class='range-slider-block'></view>
+    <view slot='maxBlock' class='range-slider-block'></view>
+  </range-slider>
+  <text class='range-text'>maxValue:{{maxValue}}</text>
+</view>
