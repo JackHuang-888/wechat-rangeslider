@@ -64,4 +64,5 @@
 | active-color | String | #1aad19 | 已选择的颜色 |
 | min | Number | 0 | 最小值 |
 | max |Number | 100 | 最大值 |
+| values |Array| [0,100] | 当前区间值 |
 | bindrangechange | EventHandle | |完成一次拖动后触发的事件，event.detail = {minValue: value1,maxValue:value2} |
